@@ -19,4 +19,4 @@ First of all, you need to set the Firebase project inside .firebaserc, to do so 
 
 ### Problems
 
-If you have problemas, read this [artlice]() about making this repository, which have some troubleshooting tips.
+If you have problemas, read this [artlice](https://dev.to/caiorcferreira/hosting-an-api-in-firebase-writen-with-typescript-and-nest) about making this repository, which have some troubleshooting tips.
