@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "es2015.promise"],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "",
+    "sourceMap": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "spec/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
