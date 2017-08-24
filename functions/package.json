@@ -4,7 +4,7 @@
   "scripts": {
     "build": "webpack",
     "serve": "webpack && firebase serve --only functions,hosting",
-    "serve:dev": "nodemon -w *.ts --exec npm run serve",
+    "serve:dev": "nodemon -e ts --exec npm run serve",
     "deploy": "webpack && firebase deploy --only functions,hosting"
   },
   "dependencies": {
