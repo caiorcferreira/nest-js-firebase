@@ -66,3 +66,4 @@ typings/
 # End of https://www.gitignore.io/api/node
 
 assets/
+functions/index.js
