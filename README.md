@@ -4,7 +4,7 @@ This is a starter repository for who wants to start a Nest API project and host 
 
 ### Prerequisites
 
-First of all, you need to set the Firebase project inside .firebaserc, to do so just replace <project-id>. Then, you need the following tools installed globally.
+First of all, you need to set the Firebase project inside .firebaserc, to do so just replace \<project-id>. Then, you need the following tools installed globally.
 
 * [Firebase tools](https://firebase.google.com/docs/cli/?hl=pt-br)
 * [Webpack](https://webpack.js.org/)
