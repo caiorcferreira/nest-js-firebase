@@ -1,11 +1,16 @@
 import * as functions from 'firebase-functions';
 import * as express from 'express';
+import { Express } from 'express';
 
 import { NestFactory } from '@nestjs/core';
 import { ApplicationModule } from './modules/app.module';
 
-const server = express();
-const app = NestFactory.create(ApplicationModule, server);
+const server: Express = express();
 
-app.init();
+const startNestApplication = async (expressInstance: Express) => {
+  const app = await NestFactory.create(ApplicationModule, expressInstance);
+  app.init();
+}
+
+startNestApplication(server);
 exports.api = functions.https.onRequest(server);
